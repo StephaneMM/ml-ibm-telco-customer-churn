@@ -1,0 +1,24 @@
+# Jupyter / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+settings.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Data and model artifacts: the notebooks re-download the dataset with
+# kagglehub and regenerate every file under outputs/.
+outputs/
+*.csv
+*.xlsx
+*.npy
+*.joblib
+*.pkl
